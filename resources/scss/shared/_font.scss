@@ -1,0 +1,73 @@
+@import'bootstrap-icons';
+@font-face {
+    font-family: pelak-medium;
+    font-style: normal;
+    src: url("../../fonts/Pelak-Medium.woff");
+    src: url("../../fonts/Pelak-Medium.woff2") format("woff2"), url("../../fonts/Pelak-Medium.woff") format("woff"),; 
+    font-display: swap;
+}
+@font-face {
+    font-family: pelak-bold;
+    font-style: normal;
+    src: url("../../fonts/Pelak-Bold.woff");
+    src: url("../../fonts/Pelak-Bold.woff2") format("woff2"), url("../../fonts/Pelak-Bold.woff") format("woff"),; 
+    font-display: swap;
+}
+@font-face {
+    font-family: pelak-rgular;
+    font-style: normal;
+    src: url("../../fonts/Pelak-Regular.woff");
+    src: url("../../fonts/Pelak-Regular.woff2") format("woff2"), url("../../fonts/Pelak-Regular.woff") format("woff"),; 
+    font-display: swap;
+}
+@font-face {
+    font-family: pelak-thin;
+    font-style: normal;
+    src: url("../../fonts/Pelak-Thin.woff");
+    src: url("../../fonts/Pelak-Thin.woff2") format("woff2"), url("../../fonts/Pelak-Thin.woff") format("woff"),; 
+    font-display: swap;
+}
+@font-face {
+    font-family: playfair;
+    font-style: normal;
+    src: url("../../fonts/PlayfairDisplay-Black.woff");
+    src: url("../../fonts/PlayfairDisplay-Black.woff2") format("woff2"), url("../../fonts/PlayfairDisplay-Black.woff") format("woff"),; 
+    font-display: swap;
+}
+@font-face {
+    font-family: pelak-num;
+    font-style: normal;
+    src: url("../../fonts/IRsans-light-num.woff");
+    src: url("../../fonts/IRsans-light-num.woff") format("woff"),; 
+    font-display: swap;
+}
+@font-face {
+    font-family: pelak-num-r;
+    font-style: normal;
+    src: url("../../fonts/IRsans-ultralight-num.woff");
+    src: url("../../fonts/IRsans-ultralight-num.woff") format("woff"); 
+    font-display: swap;
+}
+.font{
+    &-md{
+        font-family: pelak-medium;
+    }
+    &-bold{
+        font-family: pelak-bold;
+    }
+    &-re{
+        font-family: pelak-rgular;
+    }
+    &-th{
+        font-family: pelak-thin;
+    }
+    &-playfair{
+        font-family: playfair;
+    }
+    &-num{
+        font-family: pelak-num;
+    }
+    &-num-r{
+        font-family: pelak-num-r;
+    }
+}

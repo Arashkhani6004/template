@@ -1,0 +1,35 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "public": "node-sass -w resources/scss/shared/public.scss -o public/assets/site/css/shared --recursive",
+        "index": "node-sass -w resources/scss/index/index.scss -o public/assets/site/css/index --recursive",
+        "service": "node-sass -w resources/scss/service/service.scss -o public/assets/site/css/services --recursive",
+        "list-service": "node-sass -w resources/scss/service/list.scss -o public/assets/site/css/services --recursive",
+        "list-samples": "node-sass -w resources/scss/samples/list.scss -o public/assets/site/css/samples --recursive",
+        "sample": "node-sass -w resources/scss/samples/samples.scss -o public/assets/site/css/samples --recursive",
+        "list-blogs": "node-sass -w resources/scss/blogs/list.scss -o public/assets/site/css/blogs/ --recursive",
+        "detail-blog": "node-sass -w resources/scss/blogs/blog.scss -o public/assets/site/css/blogs/ --recursive",
+        "about-us": "node-sass -w resources/scss/us/about-us.scss -o public/assets/site/css/us/ --recursive",
+        "contact-us": "node-sass -w resources/scss/us/contact-us.scss -o public/assets/site/css/us/ --recursive",
+        "cat-gallery": "node-sass -w resources/scss/gallery/category.scss -o public/assets/site/css/gallery --recursive",
+        "package-list": "node-sass -w resources/scss/packages/list.scss -o public/assets/site/css/packages --recursive",
+        "package-detail": "node-sass -w resources/scss/packages/detail.scss -o public/assets/site/css/packages --recursive",
+        "pro-cat": "node-sass -w resources/scss/product/category.scss -o public/assets/site/css/product/ --recursive",
+        "pro-list": "node-sass -w resources/scss/product/list.scss -o public/assets/site/css/product/ --recursive",
+        "pro-detail": "node-sass -w resources/scss/product/detail.scss -o public/assets/site/css/product/ --recursive",
+        "auth": "node-sass -w resources/scss/auth/auth.scss -o public/assets/site/css/auth/ --recursive",
+        "panel": "node-sass -w resources/scss/panel/panel.scss -o public/assets/site/css/panel/ --recursive",
+        "brands": "node-sass -w resources/scss/brand/list.scss -o public/assets/site/css/brand/ --recursive",
+        "search": "node-sass -w resources/scss/search/search.scss -o public/assets/site/css/search/ --recursive",
+        "cart-checkout": "node-sass -w resources/scss/cart/checkout.scss -o public/assets/site/css/cart/ --recursive"
+    },
+    "devDependencies": {
+        "axios": "^1.1.2",
+        "laravel-vite-plugin": "^0.7.2",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "vite": "^4.0.0"
+    }
+}
