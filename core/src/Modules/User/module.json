@@ -1,0 +1,11 @@
+{
+    "name": "User",
+    "alias": "users",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Rahweb\CmsCore\\Modules\\User\\Providers\\UserServiceProvider"
+    ],
+    "files": []
+}

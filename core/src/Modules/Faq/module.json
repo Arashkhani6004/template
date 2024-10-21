@@ -1,0 +1,11 @@
+{
+    "name": "Faq",
+    "alias": "faq",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Rahweb\CmsCore\\Modules\\Faq\\Providers\\FaqServiceProvider"
+    ],
+    "files": []
+}

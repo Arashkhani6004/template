@@ -1,0 +1,11 @@
+{
+    "name": "Service",
+    "alias": "service",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Rahweb\CmsCore\\Modules\\Service\\Providers\\ServicesServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,31 @@
+<?php
+
+namespace Rahweb\CmsCore\Modules\Setting\Entities;
+
+use Rahweb\CmsCore\Modules\General\Traits\GlobalScopesTrait;
+use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
+
+class Social extends Authenticatable
+{
+    use Notifiable;
+    use SoftDeletes;
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array<int, string>
+     */
+    protected $fillable = [
+        'icon', 'link'
+    ];
+     use GlobalScopesTrait;
+
+    public function getDateAttribute()
+    {
+        $date = jdate('d F Y', $this->updated_at->timestamp);
+        return $date;
+    }
+
+
+}

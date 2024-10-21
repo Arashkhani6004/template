@@ -1,0 +1,34 @@
+{
+    "name": "rahweb/cms-core",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rahweb\\CmsCore\\": "src/",
+            "Rahweb\\CmsCore\\Database\\Seeders\\": "database/seeders"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rahweb\\CmsCore\\CmsCoreServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Hamide",
+            "email": "hamideh9696@gmail.com"
+        }
+    ],
+    "require": {
+        "nwidart/laravel-modules": "^9.0",
+        "intervention/image": "^2"
+    },
+    "config": {
+        "allow-plugins": {
+            "wikimedia/composer-merge-plugin": false
+        }
+    }
+}
